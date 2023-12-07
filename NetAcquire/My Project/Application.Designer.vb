@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.NetAcquire.frmMain
+            Me.MainForm = Global.NetAcquire.frmActivityLog
         End Sub
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _

@@ -136,7 +136,7 @@ Partial Class frmMain
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.EditToolStripMenuItem, Me.SearchToolStripMenuItem, Me.ListsToolStripMenuItem, Me.ReportsToolStripMenuItem, Me.QCToolStripMenuItem, Me.PrintToolStripMenuItem, Me.StockToolStripMenuItem, Me.StastisticsToolStripMenuItem, Me.HelpToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(1393, 30)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1393, 28)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -225,13 +225,13 @@ Partial Class frmMain
         '
         Me.ViewEditResultsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.GeneralToolStripMenuItem, Me.MicrobiologyToolStripMenuItem1, Me.SemenAnalysisToolStripMenuItem})
         Me.ViewEditResultsToolStripMenuItem.Name = "ViewEditResultsToolStripMenuItem"
-        Me.ViewEditResultsToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ViewEditResultsToolStripMenuItem.Size = New System.Drawing.Size(206, 26)
         Me.ViewEditResultsToolStripMenuItem.Text = "View/Edit Results"
         '
         'GeneralToolStripMenuItem
         '
         Me.GeneralToolStripMenuItem.Name = "GeneralToolStripMenuItem"
-        Me.GeneralToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.GeneralToolStripMenuItem.Size = New System.Drawing.Size(194, 26)
         Me.GeneralToolStripMenuItem.Text = "General"
         '
         'MicrobiologyToolStripMenuItem1
@@ -256,7 +256,7 @@ Partial Class frmMain
         '
         Me.BatchesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.HaeToolStripMenuItem, Me.MicrobiologyToolStripMenuItem2, Me.ExternalsToolStripMenuItem})
         Me.BatchesToolStripMenuItem.Name = "BatchesToolStripMenuItem"
-        Me.BatchesToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.BatchesToolStripMenuItem.Size = New System.Drawing.Size(206, 26)
         Me.BatchesToolStripMenuItem.Text = "Batches"
         '
         'HaeToolStripMenuItem
@@ -269,19 +269,19 @@ Partial Class frmMain
         '
         Me.MicrobiologyToolStripMenuItem2.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.OccultBloodToolStripMenuItem})
         Me.MicrobiologyToolStripMenuItem2.Name = "MicrobiologyToolStripMenuItem2"
-        Me.MicrobiologyToolStripMenuItem2.Size = New System.Drawing.Size(224, 26)
+        Me.MicrobiologyToolStripMenuItem2.Size = New System.Drawing.Size(183, 26)
         Me.MicrobiologyToolStripMenuItem2.Text = "Microbiology"
         '
         'OccultBloodToolStripMenuItem
         '
         Me.OccultBloodToolStripMenuItem.Name = "OccultBloodToolStripMenuItem"
-        Me.OccultBloodToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.OccultBloodToolStripMenuItem.Size = New System.Drawing.Size(178, 26)
         Me.OccultBloodToolStripMenuItem.Text = "Occult Blood"
         '
         'ExternalsToolStripMenuItem
         '
         Me.ExternalsToolStripMenuItem.Name = "ExternalsToolStripMenuItem"
-        Me.ExternalsToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ExternalsToolStripMenuItem.Size = New System.Drawing.Size(183, 26)
         Me.ExternalsToolStripMenuItem.Text = "Externals"
         '
         'SearchToolStripMenuItem
@@ -325,7 +325,7 @@ Partial Class frmMain
         '
         Me.ReportsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ActivityLogToolStripMenuItem, Me.CollatedReportToolStripMenuItem, Me.HoursUrineToolStripMenuItem, Me.AbnormalsToolStripMenuItem, Me.MicrobiologyToolStripMenuItem3, Me.CreatinineClearanceToolStripMenuItem, Me.UrinaryProtienToolStripMenuItem, Me.WorklistToolStripMenuItem, Me.StatisticsToolStripMenuItem, Me.TestCountToolStripMenuItem, Me.PhoneLogToolStripMenuItem, Me.FaxLogToolStripMenuItem, Me.ExternalWorklistToolStripMenuItem})
         Me.ReportsToolStripMenuItem.Name = "ReportsToolStripMenuItem"
-        Me.ReportsToolStripMenuItem.Size = New System.Drawing.Size(74, 26)
+        Me.ReportsToolStripMenuItem.Size = New System.Drawing.Size(74, 24)
         Me.ReportsToolStripMenuItem.Text = "&Reports"
         '
         'ActivityLogToolStripMenuItem
@@ -356,7 +356,7 @@ Partial Class frmMain
         'BiochemistryToolStripMenuItem
         '
         Me.BiochemistryToolStripMenuItem.Name = "BiochemistryToolStripMenuItem"
-        Me.BiochemistryToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.BiochemistryToolStripMenuItem.Size = New System.Drawing.Size(183, 26)
         Me.BiochemistryToolStripMenuItem.Text = "Biochemistry"
         '
         'HaematologyToolStripMenuItem
@@ -675,7 +675,7 @@ Partial Class frmMain
         Me.ToolStrip2.BackColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(46, Byte), Integer), CType(CType(46, Byte), Integer))
         Me.ToolStrip2.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.ToolStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton2, Me.ToolStripButton5, Me.ToolStripButton6, Me.ToolStripButton7, Me.ToolStripButton8, Me.ToolStripButton9, Me.ToolStripButton10, Me.ToolStripButton11, Me.ToolStripButton12})
-        Me.ToolStrip2.Location = New System.Drawing.Point(0, 30)
+        Me.ToolStrip2.Location = New System.Drawing.Point(0, 28)
         Me.ToolStrip2.Name = "ToolStrip2"
         Me.ToolStrip2.Size = New System.Drawing.Size(1393, 68)
         Me.ToolStrip2.TabIndex = 24
@@ -805,9 +805,9 @@ Partial Class frmMain
         Me.ToolStrip1.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripLabel1, Me.ToolStripLabel2, Me.ToolStripLabel3, Me.ToolStripLabel4, Me.ToolStripLabel5, Me.ToolStripLabel6, Me.ToolStripLabel7, Me.ToolStripLabel8})
-        Me.ToolStrip1.Location = New System.Drawing.Point(0, 877)
+        Me.ToolStrip1.Location = New System.Drawing.Point(0, 883)
         Me.ToolStrip1.Name = "ToolStrip1"
-        Me.ToolStrip1.Size = New System.Drawing.Size(1393, 31)
+        Me.ToolStrip1.Size = New System.Drawing.Size(1393, 25)
         Me.ToolStrip1.TabIndex = 25
         Me.ToolStrip1.Text = "ToolStrip1"
         '

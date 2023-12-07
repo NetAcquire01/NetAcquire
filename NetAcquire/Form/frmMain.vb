@@ -87,4 +87,13 @@
     Private Sub ChartToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ChartToolStripMenuItem.Click
 
     End Sub
+
+    Private Sub NameToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NameToolStripMenuItem.Click
+
+    End Sub
+
+    Private Sub ActivityLogToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ActivityLogToolStripMenuItem.Click
+        Dim activityLog As New frmActivityLog
+        activityLog.Show()
+    End Sub
 End Class
